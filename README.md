@@ -1,4 +1,5 @@
 alteschule
 ==========
 
-Alte Schule Website
+Alte-Schule Website
+
