@@ -3,8 +3,9 @@ body
 	padding: 0px 0px 0px 0px;
 	margin-top: 0px;
 	font: verdana, arial;
+	font-size:16px;
 	text-align: center;
-	background-color: #ff4;
+	background-color: #fff;
 	}
 	
 
@@ -12,19 +13,23 @@ body
 	{
 		width: 1180px;
 		margin: 0px auto 0px auto;
-		text-align: center;
 		background-image: url(back.jpg);
 		background-repeat: no-repeat;
-		background-color: #4ff;
+		background-color: #fff;
+		position:relative;
 	}
 	
 #logo
 	{
-		width:220px;
-		height:200px;
-		float:left;
+		width:219px;
+		height:198px;
+		position:absolute;
+		top:0px;
+		left:25px;
 		margin-top:0px;
+		z-index:2;
 		background-color: #d9ceb1;
+		background-color: #fff;
 	}
 #logo img
 	{
@@ -33,17 +38,15 @@ body
 	
 #navigation
 	{
-		width:850px;
-		height:25px;
 		float:right;
-		margin-top:30px;
+		text-align:right;
+		margin-top:57px;
 		background-image: url(nav-back.jpg);
-		background-color: #f4f;
+		background-color: #fff;
 	}
 	
 #navigation a
 	{
-		align:right;
 		font-family: Verdana,arial;
 		font-size: 16px;
 		color: #706f6f;
@@ -59,4 +62,26 @@ body
 #navigation a:active
 	{
 		color: #d1d953;
+	}
+#conti
+	{
+		margin-top:82px;
+		background-color: #ffffff;
+		text-align:left;
+	}
+	
+#homerechts
+	{
+		float:right;
+	}
+	
+#homemitte
+	{
+		width:320px;
+		height:311px;
+		position:absolute;
+		top:254px;
+		left:430px;
+		z-index:2;
+		background-color: #ffffff;
 	}
